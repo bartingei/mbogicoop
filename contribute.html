@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Make Contribution</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form-container">
+        <h2>Make Contribution</h2>
+        <form id="mpesaForm" action="process_mpesa_payment.php" method="POST">
+            <input type="number" name="amount" placeholder="Contribution Amount" required>
+            <input type="text" name="phone_number" placeholder="M-Pesa Phone Number" required>
+            <button type="submit">Pay with M-Pesa</button>
+        </form>
+    </div>
+</body>
+</html>
